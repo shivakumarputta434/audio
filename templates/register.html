@@ -1,0 +1,46 @@
+
+{% extends "home.html" %}
+
+
+
+
+{% block content %}
+<h1>Register</h1>
+
+<form>
+   name: <input type="text" name="name"><br><br>
+   username: <input type="text" name="name"><br><br>
+    email: <input type="text" name="name"><br><br>
+    password:<input type="text" name="name"><br><br>
+    <input type="submit">
+
+</form>
+<br><br>
+<h1>{{name|upper}}</h1><br><br>
+
+
+
+
+
+{% if num == 1 %}
+<h1>num is 1</h1>
+
+{% elif num == 2 %}
+<h1>num is 2</h1>
+
+{% else %}
+<h1>num is else</h1>
+
+{% endif %}
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
